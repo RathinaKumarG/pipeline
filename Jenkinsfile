@@ -13,7 +13,7 @@ pipeline {
     }
   stage('copy war') {
       steps {
-        bat 'Dir D:\Test\apache-tomcat-7.0.90\webapps\'
+        bat 'dir D:\Test\apache-tomcat-7.0.90\webapps\'
       }
     }      
   }
