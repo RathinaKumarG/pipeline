@@ -11,9 +11,9 @@ pipeline {
         bat 'dir /p'
       }
     }
-  stage('copy war') {
+  stage('run bat') {
       steps {
-        bat 'dir /p'
+        bat 'copy.bat'
       }
     }      
   }
