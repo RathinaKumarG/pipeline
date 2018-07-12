@@ -11,10 +11,6 @@ pipeline {
         bat 'dir /p'
       }
     }
-        stage('copy war') {
-      steps {
-        bat 'copy calender.war D:\Test\apache-tomcat-7.0.90\webapps\'
-      }
-    }
+       
   }
 }
