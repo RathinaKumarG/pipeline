@@ -13,7 +13,7 @@ pipeline {
     }
   stage('copy war') {
       steps {
-        bat 'copy calendar.war D:\Test\apache-tomcat-7.0.90\webapps\'
+        bat 'copy C:\Users\rathinakumar.ganesh\.jenkins\workspace\pipetest\calendar.war D:\Test\apache-tomcat-7.0.90\webapps\'
       }
     }      
   }
